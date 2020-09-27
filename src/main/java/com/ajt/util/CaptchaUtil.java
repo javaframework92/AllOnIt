@@ -13,7 +13,7 @@ import cn.apiclub.captcha.Captcha;
 public class CaptchaUtil {
 
 	private CaptchaUtil() {
-
+		System.out.println("Hellos");
 	}
 
 	public static Captcha createCaptcha(int width, int height) {
