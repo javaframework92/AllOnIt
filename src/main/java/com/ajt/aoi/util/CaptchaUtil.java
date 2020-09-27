@@ -1,4 +1,4 @@
-package com.ajt.util;
+package com.ajt.aoi.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
