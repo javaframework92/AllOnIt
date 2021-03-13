@@ -17,7 +17,10 @@ public class CaptchaUtil {
 	}
 
 	public static Captcha createCaptcha(int width, int height) {
-		return new Captcha.Builder(width, height).addBackground().addText().addNoise().build();
+		return new Captcha.Builder(width, height)
+				.addBackground()
+				.addText()
+				.addNoise().build();
 	}
 
 	public static void createImage(Captcha captcha, String imageFormat, String file)	throws IOException {
